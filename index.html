@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      margin: 30px 100px 0 100px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    h1 {
+      margin-bottom: 0;
+      margin-top: 0;
+      color: hsl(234, 12%, 34%);
+    }
+
+    .light-font {
+      color: hsl(229, 6%, 66%);
+      font-weight: 300;
+    }
+
+    .title-container {
+      text-align: center;
+    }
+
+    .description-text {
+      color: hsl(229, 6%, 66%);
+      margin-bottom: 50px;
+      font-size: 12px;
+    }
+
+    .small-font {
+      font-size: 11px;
+      margin: 0;
+    }
+
+    .title-card {
+      color: hsl(234, 12%, 34%);
+      font-weight: 600;
+      margin: 10px 0;
+    }
+
+    .card-info {
+      padding: 16px;
+      border: solid;
+      height: 200px;
+      width: 250px;
+      border-width: 4px 0 0 0;
+      border-radius: 5px;
+      box-shadow: 0px 6px 5px rgb(238, 238, 238);
+    }
+
+    .supervisor {
+      border-color: hsl(180, 62%, 55%);
+      margin: 0 16px 0 0;
+      position: relative;
+      top: 120px;
+    }
+
+    .team-builder {
+      border-color: hsl(0, 78%, 62%);
+    }
+
+    .karma {
+      border-color: hsl(34, 97%, 64%);
+      margin: 16px 0 0 0;
+    }
+
+    .calculator {
+      border-color: hsl(212, 86%, 64%);
+      margin: 0 0 0 16px;
+      position: relative;
+      top: 120px;
+    }
+
+    .image-card {
+      position: relative;
+      left: 180px;
+      top: 30px;
+      height: 50px;
+      width: 50px;
+    }
+
+    .cards-container {
+      display: flex;
+      position: relative;
+      left: 135px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="title-container">
+    <h1 class="light-font">Reliable, efficient delivery</h1>
+    <h1>Powered by Technology</h1>
+
+    <p class="description-text">
+      Our Artificial Intelligence powered tools use millions of project data <br> points
+      to ensure that your project is successful
+    </p>
+
+  </div>
+
+  <div class="cards-container">
+
+    <div class="card-info supervisor">
+      <p class="title-card">Supervisor</p>
+      <p class="light-font small-font">Monitors activity to identify project <br> roadblocks</p>
+      <img class="image-card" src="./images/icon-supervisor.svg" alt="icon-supervisor">
+    </div>
+
+    <div>
+
+      <div class="card-info team-builder">
+        <p class="title-card">Team Builder</p>
+        <p class="light-font small-font">Scans our talent network to create the <br> optimal team for your project</p>
+        <img class="image-card" src="./images/icon-team-builder.svg" alt="icon-team-builder">
+      </div>
+
+      <div class="card-info karma">
+        <p class="title-card">Karma</p>
+        <p class="light-font small-font">Regularly evaluates our talent to ensure <br> quality</p>
+        <img class="image-card" src="./images/icon-karma.svg" alt="icon-karma">
+      </div>
+
+    </div>
+
+    <div class="card-info calculator">
+      <p class="title-card">Calculator</p>
+      <p class="light-font small-font">Uses data from past projects to provide <br> better delivery estimates</p>
+      <img class="image-card" src="./images/icon-calculator.svg" alt="icon-calculator">
+    </div>
+
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
